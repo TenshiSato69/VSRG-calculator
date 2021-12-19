@@ -104,7 +104,8 @@ elif choice > 3:
     print()
 
 while choice != 3:
-    print ("Osu Mania Checker")
+    print ("osu!mania Calculator")
+    print ("by TenshiGamer69")
     print ()
     print ("   1. Accuracy/Ratio Calculator")
     print ("   2. Dan Course Accuracy Calculator")
