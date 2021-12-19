@@ -1,4 +1,5 @@
 print ("Osu Mania Calculator")
+print ("by TenshiGamer69")
 print ()
 print ("   1. Accuracy/Ratio Calculator")
 print ("   2. Dan Course Accuracy Calculator")
