@@ -1,4 +1,4 @@
-print ("Osu Mania Calculator")
+print ("osu!mania Calculator")
 print ("by TenshiGamer69")
 print ()
 print ("   1. Accuracy/Ratio Calculator")
@@ -25,7 +25,9 @@ if choice == 1:
     finalacc = round((accuracy*100),2)
     accv2 = ((marvelous*1)+(perfect*(9836/10000))+(great*(6557/10000))+(cool*(3279/10000))+(bad*(1639/10000)))/total
     finalaccv2 = round((accv2*100),2)
-    
+    malody = ((marvelous*1)+(great*(3/4))+(bad*(2/5)))/total
+    finalmalody = round((malody*100),2)
+              
     if perfect == 0:
         print ("MA:PA = ±∞:1")
     else:
@@ -69,8 +71,26 @@ if choice == 1:
     else:
         print ("Score v2 Accuracy: {}".format(finalaccv2))
         print ("Score v2 Rank:D")
+    print ()
+    if finalmalody == 100:
+        print ("Malody Accuracy: {}".format(finalmalody))
+        print ("Malody Rank:M5")
+    elif finalmalody > 94.9999 and miss == 0:
+        print ("Malody Accuracy: {}".format(finalmalody))
+        print ("Malody Rank:M4")  
+    elif finalmalody > 89.9999 and miss > 0:
+        print ("Malody Accuracy: {}".format(finalmalody))
+        print ("Malody Rank:M3")
+    elif finalmalody > 79.9999 and miss > 0:
+        print ("Malody Accuracy: {}".format(finalmalody))
+        print ("Malody Rank:M2")
+    elif finalmalody > 69.9999 and miss > 0:
+        print ("Malody Accuracy: {}".format(finalmalody))
+        print ("Malody Rank:M1")
+    else:
+        print ("Malody Accuracy: {}".format(finalmalody))
+        print ("Malody Rank:M0")
     print () 
-
 elif choice == 2:
     print("Dan Course Acc Simulator")
     print () 
@@ -130,6 +150,8 @@ while choice != 3:
         finalacc = round((accuracy*100),2)
         accv2 = ((marvelous*1)+(perfect*(9836/10000))+(great*(6557/10000))+(cool*(3279/10000))+(bad*(1639/10000)))/total
         finalaccv2 = round((accv2*100),2)
+        malody = ((marvelous*1)+(great*(3/4))+(bad*(2/5)))/total
+        finalmalody = round((malody*100),2)
 
         if perfect == 0:
             print ("MA:PA = ±∞:1")
@@ -176,8 +198,26 @@ while choice != 3:
         else:
             print ("Score v2 Accuracy: {}".format(finalaccv2))
             print ("Score v2 Rank:D")
+        print ()
+        if finalmalody == 100:
+            print ("Malody Accuracy: {}".format(finalmalody))
+            print ("Malody Rank:M5")
+        elif finalmalody > 94.9999 and miss == 0:
+            print ("Malody Accuracy: {}".format(finalmalody))
+            print ("Malody Rank:M4")  
+        elif finalmalody > 89.9999 and miss > 0:
+            print ("Malody Accuracy: {}".format(finalmalody))
+            print ("Malody Rank:M3")
+        elif finalmalody > 79.9999 and miss > 0:
+            print ("Malody Accuracy: {}".format(finalmalody))
+            print ("Malody Rank:M2")
+        elif finalmalody > 69.9999 and miss > 0:
+            print ("Malody Accuracy: {}".format(finalmalody))
+            print ("Malody Rank:M1")
+        else:
+            print ("Malody Accuracy: {}".format(finalmalody))
+            print ("Malody Rank:M0")
         print () 
-
     elif choice == 2:
         print("Dan Course Accuracy Simulator")
         print () 
