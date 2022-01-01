@@ -22,7 +22,7 @@ if choice == 1:
     total = marvelous + perfect + great + cool + bad + miss
 
     accuracy = (((marvelous+perfect)*1)+(great*(2/3))+(cool*(1/3))+(bad*(1/6)))/total
-    finalacc = round((accuracy*100),2)
+    finalacc = (accuracy*100)
     accv2 = ((marvelous*1)+(perfect*(9836/10000))+(great*(6557/10000))+(cool*(3279/10000))+(bad*(1639/10000)))/total
     finalaccv2 = round((accv2*100),2)
     malody = ((marvelous*1)+(great*(3/4))+(bad*(2/5)))/total
@@ -147,7 +147,7 @@ while choice != 3:
         total = marvelous + perfect + great + cool + bad + miss
 
         accuracy = (((marvelous+perfect)*1)+(great*(2/3))+(cool*(1/3))+(bad*(1/6)))/total
-        finalacc = round((accuracy*100),2)
+        finalacc = (accuracy*100)
         accv2 = ((marvelous*1)+(perfect*(9836/10000))+(great*(6557/10000))+(cool*(3279/10000))+(bad*(1639/10000)))/total
         finalaccv2 = round((accv2*100),2)
         malody = ((marvelous*1)+(great*(3/4))+(bad*(2/5)))/total
