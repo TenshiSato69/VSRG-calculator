@@ -25,7 +25,7 @@ if choice == 1:
     finalacc = (accuracy*100)
     accv2 = ((marvelous*1)+(perfect*(9836/10000))+(great*(6557/10000))+(cool*(3279/10000))+(bad*(1639/10000)))/total
     finalaccv2 = round((accv2*100),2)
-    malody = ((marvelous*1)+(great*(3/4))+(bad*(2/5)))/total
+    malody = (((marvelous+perfect)*1)+((great+cool)*(3/4))+(bad*(2/5)))/total
     finalmalody = round((malody*100),2)
               
     if perfect == 0:
@@ -150,7 +150,7 @@ while choice != 3:
         finalacc = (accuracy*100)
         accv2 = ((marvelous*1)+(perfect*(9836/10000))+(great*(6557/10000))+(cool*(3279/10000))+(bad*(1639/10000)))/total
         finalaccv2 = round((accv2*100),2)
-        malody = ((marvelous*1)+(great*(3/4))+(bad*(2/5)))/total
+        malody = (((marvelous+perfect)*1)+((great+cool)*(3/4))+(bad*(2/5)))/total
         finalmalody = round((malody*100),2)
 
         if perfect == 0:
