@@ -136,12 +136,12 @@ while choice != 3:
     if choice == 1:
         print ("Accuracy/Ratio Calculator")
         print () 
-        marvelous = int(input("Enter number of 320:"))
-        perfect = int(input("Enter number of 300:"))
-        great = int(input("Enter number of 200:"))
-        cool = int(input("Enter number of 100:"))
-        bad = int(input("Enter number of 50:"))
-        miss = int(input("Enter number of 0:"))
+        marvelous = int(input("Enter number of 320: "))
+        perfect = int(input("Enter number of 300: "))
+        great = int(input("Enter number of 200: "))
+        cool = int(input("Enter number of 100: "))
+        bad = int(input("Enter number of 50: "))
+        miss = int(input("Enter number of 0: "))
         print () 
 
         total = marvelous + perfect + great + cool + bad + miss
