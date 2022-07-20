@@ -2,6 +2,10 @@ osu!mania calculator by TenshiGamer69
 
 For Accuracy/Ratio
 
+v1.2
+
+-Score v2 Accuracy Fixed
+
 v1.1
 
 -osu! to Malody Accuracy added to Accuracy Calculator
