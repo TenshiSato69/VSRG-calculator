@@ -23,7 +23,7 @@ if choice == 1:
 
     accuracy = (((marvelous+perfect)*1)+(great*(2/3))+(cool*(1/3))+(bad*(1/6)))/total
     finalacc = (accuracy*100)
-    accv2 = ((marvelous*1)+(perfect*(300/305)+(great*(200/305))+(cool*(100/305))+(bad*(50/305)))/total
+    accv2 = ((marvelous*1)+(perfect*(300/305))+(great*(200/305))+(cool*(100/305))+(bad*(50/305)))/total
     finalaccv2 = round((accv2*100),2)
     malody = (((marvelous+perfect)*1)+((great+cool)*(3/4))+(bad*(2/5)))/total
     finalmalody = round((malody*100),2)
