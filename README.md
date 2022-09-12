@@ -1,6 +1,11 @@
-osu!mania calculator by TenshiGamer69
+VSRG Calculator by TenshiGamer69
 
-For Accuracy/Ratio
+For Accuracy/Ratio including Dan Courses
+
+v1.3
+
+-Accuracy Calculator Improved
+-Changed name from osu!mania Calculator to VSRG Calculator
 
 v1.2
 
