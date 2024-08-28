@@ -68,7 +68,7 @@ def osu():
 
     accuracy = (((marvelous+perfect)*1)+(great*(2/3))+(good*(1/3))+(bad*(1/6)))/total
     finalacc = round((accuracy*100),2)
-    accv2 = ((marvelous*1)+(perfect*(9836/10000))+(great*(6557/10000))+(good*(3279/10000))+(bad*(1639/10000)))/total
+    accv2 = ((marvelous*1)+(perfect*(300/305))+(great*(200/305))+(good*(100/305))+(bad*(50/305)))/total
     finalaccv2 = round((accv2*100),2)
               
     if perfect == 0:
